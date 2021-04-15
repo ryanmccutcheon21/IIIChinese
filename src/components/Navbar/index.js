@@ -8,7 +8,6 @@ const NavBar = ({ toggle }) => {
                 <NavLink to='/'>Chinese</NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
-                    <Bars />
                 </NavIcon>
             </Nav>
         </>
